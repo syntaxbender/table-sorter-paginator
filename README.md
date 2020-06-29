@@ -1,2 +1,2 @@
 # JQuery sbTableSorter
-Render Javascript Array to HTML Tables with sort and pagination
+Render Array to HTML Tables with sort and pagination
