@@ -5,8 +5,12 @@
 <script type="text/javascript">
 $(document).ready(function() {
 	var test = [["geny","qwe","zxc"],["bnm","you","mee"],["ola","hola","yoha"],["cikcik","havhav","meow"],["haso","loa","qwe"],["bidik","cucuk","zuzuk"],["yoa","hoa","moa"],["oman","koman","zoran"],["loran","duran","titan"],["osman","wars","zom"],["muz","şeftali","çilek"],["üzüm","ayva","erik"],["portakal","zerdeçal","zencefil"],["olivera","zeytin","veysel"],["süleyman","osman","veli"],["sumak","susmak","susam"]];
-	sbTableSorter.run({headers: ["row1","row2","row3"], elementID: "test", array: test, rowCount:5});
+	sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test", array: test, rowCount:5});
+	sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test2", array: test, rowCount:5});
+	sbTableSorter.run();
 });
 </script>
 <table id="test"></table>
 <div id="test-pagination"></div>
+<table id="test2"></table>
+<div id="test2-pagination"></div>
