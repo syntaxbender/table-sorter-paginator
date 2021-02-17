@@ -1,0 +1,17 @@
+	div.sbTableSortButton{
+		cursor: pointer;
+		display: inline-block;
+		vertical-align: top;
+	}
+	div.sbTablePageButton {
+		display: inline-block;
+		vertical-align: top;
+		padding: 3px 9px;
+		background: red;
+		margin: 0px 4px;
+		border-radius: 7px;
+	}
+	div.sbTableActivePageButton {
+		background: blue;
+		color: #FFF;
+	} 

@@ -1,16 +1,20 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-<script src="./sbTableSorter.js"></script>
-
-<script type="text/javascript">
-$(document).ready(function() {
-	var test = [["geny","qwe","zxc"],["bnm","you","mee"],["ola","hola","yoha"],["cikcik","havhav","meow"],["haso","loa","qwe"],["bidik","cucuk","zuzuk"],["yoa","hoa","moa"],["oman","koman","zoran"],["loran","duran","titan"],["osman","wars","zom"],["muz","şeftali","çilek"],["üzüm","ayva","erik"],["portakal","zerdeçal","zencefil"],["olivera","zeytin","veysel"],["süleyman","osman","veli"],["sumak","susmak","susam"]];
-	sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test", array: test, rowCount:5});
-	sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test2", array: test, rowCount:5});
-	sbTableSorter.run();
-});
-</script>
-<table id="test"></table>
-<div id="test-pagination"></div>
-<table id="test2"></table>
-<div id="test2-pagination"></div>
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="assets/js/sbTableSorter.js"></script>
+	<script type="text/javascript">
+		var test = [["geny","qwe","zxc"],["bnm","you","mee"],["ola","hola","yoha"],["cikcik","havhav","meow"],["haso","loa","qwe"],["bidik","cucuk","zuzuk"],["yoa","hoa","moa"],["oman","koman","zoran"],["loran","duran","titan"],["osman","wars","zom"],["muz","şeftali","çilek"],["üzüm","ayva","erik"],["portakal","zerdeçal","zencefil"],["olivera","zeytin","veysel"],["süleyman","osman","veli"],["sumak","susmak","susam"]];
+		sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test", array: test, rowCount:5});
+		sbTableSorter.addItem({headers: ["row1","row2","row3"], elementID: "test2", array: test, rowCount:5});
+		sbTableSorter.run();
+	</script>
+	<title>sbTableSorter Example</title>
+</head>
+<body>
+	<table id="test"></table>
+	<div id="test-pagination"></div>
+	<table id="test2"></table>
+	<div id="test2-pagination"></div>
+</body>
+</html>
